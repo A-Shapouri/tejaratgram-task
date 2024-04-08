@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    font-size: 16px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: IRANSansRegular, Helvetica, Calibri, SansSerif, Arial, serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: IRANSansRegular, Calibri, SansSerif, Arial, serif;
+}
+
+@font-face {
+    font-family: 'IRANSansMedium';
+    src: url('/fonts/IRANSans/IRANSansMedium.woff') format('truetype');
+    font-display: swap;
+
+}
+
+@font-face {
+    font-family: 'IRANSansRegular';
+    src: url('/fonts/IRANSans/IRANSansRegular.woff') format('truetype');
+    font-display: swap;
+
+}
+
+@font-face {
+    font-family: 'IRANSansBold';
+    src: url('/fonts/IRANSans/IRANSansBold.woff') format('truetype');
+    font-display: swap;
+
+}
+
+@font-face {
+    font-family: 'IRANSansLight';
+    src: url('/fonts/IRANSans/IRANSansLight.woff') format('truetype');
+    font-display: swap;
+}
